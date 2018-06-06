@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nguyenngocsonc.myapplication.signin.NewFeedActivity">
+    android:orientation="vertical"
+    tools:context="com.example.nguyenngocsonc.myapplication.newfeed.NewFeedActivity"
+    android:background="@color/colorGray">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_story"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:background="@color/colorWhite"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
