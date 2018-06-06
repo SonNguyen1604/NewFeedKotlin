@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_small">10dp</dimen>
-    <dimen name="btn_height">35dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_35dp">35dp</dimen>
+    <dimen name="_80dp">80dp</dimen>
+    <dimen name="_30sp">30sp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_100dp">100dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_10sp">10sp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_3dp">3dp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="_70dp">70dp</dimen>
 </resources>

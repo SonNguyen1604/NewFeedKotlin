@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.example.nguyenngocsonc.myapplication.R
+import com.example.nguyenngocsonc.myapplication.newfeed.NewFeedActivity
 import com.example.nguyenngocsonc.myapplication.signup.SignupActivity
 import kotlinx.android.synthetic.main.activity_signup.*
 
