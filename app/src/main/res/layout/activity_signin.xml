@@ -44,7 +44,7 @@
             android:layout_marginBottom="@dimen/_10dp"
             android:layout_marginTop="@dimen/_10dp"
             android:textColor="@color/colorMain"
-            android:id="@+id/btn_sign_in"/>
+            android:id="@+id/btnSignIn"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
             android:background="@android:color/transparent"
             android:text="@string/sign_up"
             android:textColor="@color/colorWhite"
-            android:id="@+id/btn_sign_up"/>
+            android:id="@+id/btnSignUp"/>
 
     </LinearLayout>
 </LinearLayout>

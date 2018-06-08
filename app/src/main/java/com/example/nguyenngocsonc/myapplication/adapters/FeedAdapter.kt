@@ -26,7 +26,9 @@ class FeedAdapter(private var feeds: ArrayList<Feed>, private val context: Conte
         holder.txtName.text = feed.fullName
         holder.txtTime.text = feed.createAt
         holder.txtFeed.text = feed.feedContent
-        Glide.with(context).load(feed.feedImages[0]).into(holder.imgFeed)
+        if(feed.feedImages.size > 0) {
+            Glide.with(context).load(feed.feedImages[0]).into(holder.imgFeed)
+        }
         holder.txtReactionCount.text = feed.reactionCount.toString()
         holder.txtCommentCount.text = feed.commentCount.toString() + " comments"
         holder.txtShareCount.text = feed.sharingCount.toString() + " sharing"
